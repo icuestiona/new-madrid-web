@@ -173,6 +173,7 @@ main img {
   background-color: transparent;
   transition: all 0.3s ease;
   color: #fff;
+  border: 1px solid #0dcaf0;
 }
 
 .btn-secondary-outline {
@@ -191,6 +192,7 @@ main img {
   background-color: transparent;
   transition: all 0.3s ease;
   color: #fff;
+  border: 1px solid #0dcaf0;
 }
 
 .activities h2 {
