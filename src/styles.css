@@ -1,0 +1,269 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #b3a577;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+header {
+  background-image: linear-gradient(rgba(22, 1, 1, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/Madrid22.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+header .btn-primary {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 16px;
+  background-color: crimson;
+  text-decoration: none;
+  border: 1px solid crimson;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+header .btn-primary:hover {
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+
+header.btn-primary:active {
+  transform: scale(0.8);
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 27px;
+  margin-top: 27px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 3.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 3px;
+  color: #272044;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #466ca5;
+  margin: 0;
+}
+main img {
+  float: center;
+  width: 650px;
+  height: 500px;
+  display: block;
+}
+
+.description {
+  text-align: justify;
+  font-size: 1.1rem;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 40px;
+  font-family: "Candara";
+  font-weight: bold;
+}
+
+.btn-info {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  background-color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  width: 120px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.btn-info:hover {
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.btn-light {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  width: 120px;
+  padding: 15px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.btn-light:hover {
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: #fff;
+  border: 1px solid #0dcaf0;
+}
+
+.btn-secondary {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  width: 120px;
+  padding: 15px;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: #fff;
+  border: 1px solid #0dcaf0;
+}
+
+.activities h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.activities h3 {
+  margin-bottom: 10px;
+}
+.activities img {
+  float: center;
+  width: 420px;
+  height: 370px;
+  object-fit: cover;
+}
+.activities p {
+  text-align: justify;
+  font-size: 1rem;
+  margin-right: 15px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img .food {
+  float: center;
+  width: 420px;
+  height: 300px;
+  display: block;
+}
+.gastronomy {
+  text-align: justify;
+  font-size: 1.1rem;
+  margin-left: 0;
+  margin-right: 35px;
+  margin-top: 0px;
+  font-family: "Candara";
+  font-weight: bold;
+}
+
+footer {
+  font-size: small;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  main {
+    text-align: center;
+    padding: 0;
+  }
+  .content h1 {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  img {
+    float: center;
+  }
+}
