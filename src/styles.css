@@ -160,6 +160,7 @@ main img {
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  font-size: 1.1rem;
   color: #fff;
   background-color: #0dcaf0;
   border: 1px solid #0dcaf0;
@@ -181,6 +182,7 @@ main img {
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  font-size: 1.1rem;
   color: white;
   background-color: #0dcaf0;
   border: 1px solid #0dcaf0;
