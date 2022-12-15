@@ -35,11 +35,11 @@ header {
   background-position: center top;
 }
 
-header .btn-primary {
+header .btn-primary-outline {
   display: block;
-  font-size: 18px;
   color: white;
   font-weight: 700;
+  font-size: 18px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 3px;
@@ -54,15 +54,14 @@ header .btn-primary {
   cursor: pointer;
 }
 
-header .btn-primary:hover {
+header .btn-primary-outline:hover {
   background-color: darkcyan;
   border: 1px solid darkcyan;
   text-decoration: none;
   transform: scale(1.2);
-  transition: all 0.3s ease;
 }
 
-header.btn-primary:active {
+header.btn-primary-outline:active {
   transform: scale(0.8);
 }
 
@@ -156,13 +155,12 @@ main img {
   transition: all 0.3s ease;
   color: #fff;
 }
-.btn-light {
+.btn-light-outline {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  font-size: 1.1rem;
-  color: white;
+  color: #fff;
   background-color: #0dcaf0;
   border: 1px solid #0dcaf0;
   width: 120px;
@@ -171,19 +169,17 @@ main img {
   margin-left: 35px;
 }
 
-.btn-light:hover {
+.btn-light-outline:hover {
   background-color: transparent;
   transition: all 0.3s ease;
   color: #fff;
-  border: 1px solid #0dcaf0;
 }
 
-.btn-secondary {
+.btn-secondary-outline {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  font-size: 1.1rem;
   color: white;
   background-color: #0dcaf0;
   border: 1px solid #0dcaf0;
@@ -191,11 +187,10 @@ main img {
   padding: 15px;
   cursor: pointer;
 }
-.btn-secondary:hover {
+.btn-secondary-outline:hover {
   background-color: transparent;
   transition: all 0.3s ease;
   color: #fff;
-  border: 1px solid #0dcaf0;
 }
 
 .activities h2 {
